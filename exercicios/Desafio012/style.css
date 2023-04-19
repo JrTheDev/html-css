@@ -17,7 +17,7 @@ header {
     }
     
 header > h1 {
-    padding-top: 10px;
+    padding-top: 50px;
     font-variant: small-caps;
     }
 
@@ -25,8 +25,41 @@ header > h1 {
         padding-bottom: 50px;
     }
 
-    a {
+    header a, footer a {
         color: white;
         text-decoration: none;
         font-weight: bolder;
+    }
+
+    header a:hover, footer a:hover {
+        text-decoration: underline;
+    }
+
+    section {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 2em;
+        padding-left: 30px;
+    }
+
+    section.normal {
+        background-color: white;
+        color: black;
+    }
+
+    section.imagem {
+        background-color: rgb(70, 70, 70);
+        color: white;
+    }
+
+    section.imagem > p {
+        background-color: rgba(0, 0, 0, 0.247);
+        max-width: 400px;
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 10px;
     }
